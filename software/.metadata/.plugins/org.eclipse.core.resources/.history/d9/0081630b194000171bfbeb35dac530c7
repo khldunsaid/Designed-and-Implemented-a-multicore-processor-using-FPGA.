@@ -1,0 +1,37 @@
+#include "sys/alt_stdio.h"
+#include "system.h"
+#include "alt_types.h"
+#include "stdio.h"
+#include "io.h"
+#include "altera_avalon_mutex.h"
+
+#define OnChip	0x00008000
+int A;
+
+int main()
+{
+	alt_mutex_dev *m1;
+
+#ifdef MUTEX_BASE
+	m1 = altera_avalon_mutex_open("/dev/mutex");
+#endif
+
+	//printf("NIOS %d is waiting for control signal\n", ALT_CPU_CPU_ID_VALUE);
+
+	// Waiting for control signal
+	while(IORD(OnChip,0x00)!=0x01);
+
+
+	// Locking MUTEX
+	while (altera_avalon_mutex_trylock (m1, ALT_CPU_CPU_ID_VALUE));
+
+	// Printing DATA
+	//printf("NIOS %d captured MUTEX.\n", ALT_CPU_CPU_ID_VALUE);
+		A++;
+
+	// Unlocking MUTEX
+	altera_avalon_mutex_unlock (m1);
+  return 0;
+
+}
+

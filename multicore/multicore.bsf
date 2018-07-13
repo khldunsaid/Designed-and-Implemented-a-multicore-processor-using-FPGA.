@@ -1,0 +1,146 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 416 312)
+	(text "multicore" (rect 182 -1 217 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 296 20 308)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 61 46 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 176 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 101 82 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 176 112)(line_width 1))
+	)
+	(port
+		(pt 416 72)
+		(output)
+		(text "sdram_clk_clk" (rect 0 0 59 12)(font "Arial" (font_size 8)))
+		(text "sdram_clk_clk" (rect 344 61 422 72)(font "Arial" (font_size 8)))
+		(line (pt 416 72)(pt 240 72)(line_width 1))
+	)
+	(port
+		(pt 0 152)
+		(output)
+		(text "sdram_controller_wire_addr[12..0]" (rect 0 0 135 12)(font "Arial" (font_size 8)))
+		(text "sdram_controller_wire_addr[12..0]" (rect 4 141 202 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 176 152)(line_width 3))
+	)
+	(port
+		(pt 0 168)
+		(output)
+		(text "sdram_controller_wire_ba[1..0]" (rect 0 0 122 12)(font "Arial" (font_size 8)))
+		(text "sdram_controller_wire_ba[1..0]" (rect 4 157 184 168)(font "Arial" (font_size 8)))
+		(line (pt 0 168)(pt 176 168)(line_width 3))
+	)
+	(port
+		(pt 0 184)
+		(output)
+		(text "sdram_controller_wire_cas_n" (rect 0 0 119 12)(font "Arial" (font_size 8)))
+		(text "sdram_controller_wire_cas_n" (rect 4 173 166 184)(font "Arial" (font_size 8)))
+		(line (pt 0 184)(pt 176 184)(line_width 1))
+	)
+	(port
+		(pt 0 200)
+		(output)
+		(text "sdram_controller_wire_cke" (rect 0 0 108 12)(font "Arial" (font_size 8)))
+		(text "sdram_controller_wire_cke" (rect 4 189 154 200)(font "Arial" (font_size 8)))
+		(line (pt 0 200)(pt 176 200)(line_width 1))
+	)
+	(port
+		(pt 0 216)
+		(output)
+		(text "sdram_controller_wire_cs_n" (rect 0 0 114 12)(font "Arial" (font_size 8)))
+		(text "sdram_controller_wire_cs_n" (rect 4 205 160 216)(font "Arial" (font_size 8)))
+		(line (pt 0 216)(pt 176 216)(line_width 1))
+	)
+	(port
+		(pt 0 248)
+		(output)
+		(text "sdram_controller_wire_dqm[1..0]" (rect 0 0 130 12)(font "Arial" (font_size 8)))
+		(text "sdram_controller_wire_dqm[1..0]" (rect 4 237 190 248)(font "Arial" (font_size 8)))
+		(line (pt 0 248)(pt 176 248)(line_width 3))
+	)
+	(port
+		(pt 0 264)
+		(output)
+		(text "sdram_controller_wire_ras_n" (rect 0 0 118 12)(font "Arial" (font_size 8)))
+		(text "sdram_controller_wire_ras_n" (rect 4 253 166 264)(font "Arial" (font_size 8)))
+		(line (pt 0 264)(pt 176 264)(line_width 1))
+	)
+	(port
+		(pt 0 280)
+		(output)
+		(text "sdram_controller_wire_we_n" (rect 0 0 115 12)(font "Arial" (font_size 8)))
+		(text "sdram_controller_wire_we_n" (rect 4 269 160 280)(font "Arial" (font_size 8)))
+		(line (pt 0 280)(pt 176 280)(line_width 1))
+	)
+	(port
+		(pt 0 232)
+		(bidir)
+		(text "sdram_controller_wire_dq[15..0]" (rect 0 0 127 12)(font "Arial" (font_size 8)))
+		(text "sdram_controller_wire_dq[15..0]" (rect 4 221 190 232)(font "Arial" (font_size 8)))
+		(line (pt 0 232)(pt 176 232)(line_width 3))
+	)
+	(drawing
+		(text "clk" (rect 161 43 340 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 181 67 380 144)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 147 83 324 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 181 107 404 224)(font "Arial" (color 0 0 0)))
+		(text "sdram_clk" (rect 241 43 536 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 225 67 468 144)(font "Arial" (color 0 0 0)))
+		(text "sdram_controller_wire" (rect 45 123 216 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "addr" (rect 181 147 386 304)(font "Arial" (color 0 0 0)))
+		(text "ba" (rect 181 163 374 336)(font "Arial" (color 0 0 0)))
+		(text "cas_n" (rect 181 179 392 368)(font "Arial" (color 0 0 0)))
+		(text "cke" (rect 181 195 380 400)(font "Arial" (color 0 0 0)))
+		(text "cs_n" (rect 181 211 386 432)(font "Arial" (color 0 0 0)))
+		(text "dq" (rect 181 227 374 464)(font "Arial" (color 0 0 0)))
+		(text "dqm" (rect 181 243 380 496)(font "Arial" (color 0 0 0)))
+		(text "ras_n" (rect 181 259 392 528)(font "Arial" (color 0 0 0)))
+		(text "we_n" (rect 181 275 386 560)(font "Arial" (color 0 0 0)))
+		(text " multicore " (rect 374 296 814 602)(font "Arial" ))
+		(line (pt 176 32)(pt 240 32)(line_width 1))
+		(line (pt 240 32)(pt 240 296)(line_width 1))
+		(line (pt 176 296)(pt 240 296)(line_width 1))
+		(line (pt 176 32)(pt 176 296)(line_width 1))
+		(line (pt 177 52)(pt 177 76)(line_width 1))
+		(line (pt 178 52)(pt 178 76)(line_width 1))
+		(line (pt 177 92)(pt 177 116)(line_width 1))
+		(line (pt 178 92)(pt 178 116)(line_width 1))
+		(line (pt 239 52)(pt 239 76)(line_width 1))
+		(line (pt 238 52)(pt 238 76)(line_width 1))
+		(line (pt 177 132)(pt 177 284)(line_width 1))
+		(line (pt 178 132)(pt 178 284)(line_width 1))
+		(line (pt 0 0)(pt 416 0)(line_width 1))
+		(line (pt 416 0)(pt 416 312)(line_width 1))
+		(line (pt 0 312)(pt 416 312)(line_width 1))
+		(line (pt 0 0)(pt 0 312)(line_width 1))
+	)
+)

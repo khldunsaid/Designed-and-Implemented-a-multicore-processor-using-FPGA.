@@ -1,0 +1,9 @@
+03:45:00 **** Incremental Build of configuration Nios II for project cpu_3 ****
+make all 
+Info: Building ../cpu_3_bsp/
+C:/altera_lite/15.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../cpu_3_bsp/
+[BSP build complete]
+[cpu_3 build complete]
+
+03:45:01 Build Finished (took 938ms)
+

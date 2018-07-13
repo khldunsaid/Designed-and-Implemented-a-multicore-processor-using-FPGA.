@@ -1,0 +1,313 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\Bcc\Desktop\khldun_project\project00.9AA\multicore.qsys --block-symbol-file --output-directory=C:\Users\Bcc\Desktop\khldun_project\project00.9AA\multicore --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading project00.9AA/multicore.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 15.1]
+Progress: Parameterizing module clk_0
+Progress: Adding cpu_1 [altera_nios2_gen2 15.1]
+Progress: Parameterizing module cpu_1
+Progress: Adding cpu_2 [altera_nios2_gen2 15.1]
+Progress: Parameterizing module cpu_2
+Progress: Adding cpu_3 [altera_nios2_gen2 15.1]
+Progress: Parameterizing module cpu_3
+Progress: Adding cpu_4 [altera_nios2_gen2 15.1]
+Progress: Parameterizing module cpu_4
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 15.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding mutex [altera_avalon_mutex 15.1]
+Progress: Parameterizing module mutex
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 15.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding performance_counter [altera_avalon_performance_counter 15.1]
+Progress: Parameterizing module performance_counter
+Progress: Adding pll [altera_pll 15.1]
+Progress: Parameterizing module pll
+Progress: Adding sdram_controller [altera_avalon_new_sdram_controller 15.1]
+Progress: Parameterizing module sdram_controller
+Progress: Adding sysid [altera_avalon_sysid_qsys 15.1]
+Progress: Parameterizing module sysid
+Progress: Adding timer1 [altera_avalon_timer 15.1]
+Progress: Parameterizing module timer1
+Progress: Adding timer_2 [altera_avalon_timer 15.1]
+Progress: Parameterizing module timer_2
+Progress: Adding timer_3 [altera_avalon_timer 15.1]
+Progress: Parameterizing module timer_3
+Progress: Adding timer_4 [altera_avalon_timer 15.1]
+Progress: Parameterizing module timer_4
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: multicore.mutex: The initial owner must release the mutex before it can be acquired by another owner. Nios II processors use their cpuid register value for the owner field. SOPC Builder assigns cpuid values to each Nios II core, starting from 0x0000, and incrementing in the order that the Nios II components appear on the System Contents tab.
+Info: multicore.pll: The legal reference clock frequency is 5.0 MHz..800.0 MHz
+Warning: multicore.pll: Able to implement PLL - Actual settings differ from Requested settings
+Info: multicore.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: multicore.sysid: Time stamp will be automatically updated when this component is generated.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\Bcc\Desktop\khldun_project\project00.9AA\multicore.qsys --synthesis=VHDL --output-directory=C:\Users\Bcc\Desktop\khldun_project\project00.9AA\multicore\synthesis --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading project00.9AA/multicore.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 15.1]
+Progress: Parameterizing module clk_0
+Progress: Adding cpu_1 [altera_nios2_gen2 15.1]
+Progress: Parameterizing module cpu_1
+Progress: Adding cpu_2 [altera_nios2_gen2 15.1]
+Progress: Parameterizing module cpu_2
+Progress: Adding cpu_3 [altera_nios2_gen2 15.1]
+Progress: Parameterizing module cpu_3
+Progress: Adding cpu_4 [altera_nios2_gen2 15.1]
+Progress: Parameterizing module cpu_4
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 15.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding mutex [altera_avalon_mutex 15.1]
+Progress: Parameterizing module mutex
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 15.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding performance_counter [altera_avalon_performance_counter 15.1]
+Progress: Parameterizing module performance_counter
+Progress: Adding pll [altera_pll 15.1]
+Progress: Parameterizing module pll
+Progress: Adding sdram_controller [altera_avalon_new_sdram_controller 15.1]
+Progress: Parameterizing module sdram_controller
+Progress: Adding sysid [altera_avalon_sysid_qsys 15.1]
+Progress: Parameterizing module sysid
+Progress: Adding timer1 [altera_avalon_timer 15.1]
+Progress: Parameterizing module timer1
+Progress: Adding timer_2 [altera_avalon_timer 15.1]
+Progress: Parameterizing module timer_2
+Progress: Adding timer_3 [altera_avalon_timer 15.1]
+Progress: Parameterizing module timer_3
+Progress: Adding timer_4 [altera_avalon_timer 15.1]
+Progress: Parameterizing module timer_4
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: multicore.mutex: The initial owner must release the mutex before it can be acquired by another owner. Nios II processors use their cpuid register value for the owner field. SOPC Builder assigns cpuid values to each Nios II core, starting from 0x0000, and incrementing in the order that the Nios II components appear on the System Contents tab.
+Info: multicore.pll: The legal reference clock frequency is 5.0 MHz..800.0 MHz
+Warning: multicore.pll: Able to implement PLL - Actual settings differ from Requested settings
+Info: multicore.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: multicore.sysid: Time stamp will be automatically updated when this component is generated.
+Info: multicore: Generating multicore "multicore" for QUARTUS_SYNTH
+Info: cpu_1: "multicore" instantiated altera_nios2_gen2 "cpu_1"
+Info: cpu_2: "multicore" instantiated altera_nios2_gen2 "cpu_2"
+Info: cpu_3: "multicore" instantiated altera_nios2_gen2 "cpu_3"
+Info: cpu_4: "multicore" instantiated altera_nios2_gen2 "cpu_4"
+Info: jtag_uart: Starting RTL generation for module 'multicore_jtag_uart'
+Info: jtag_uart:   Generation command is [exec C:/altera_lite/15.1/quartus/bin64/perl/bin/perl.exe -I C:/altera_lite/15.1/quartus/bin64/perl/lib -I C:/altera_lite/15.1/quartus/sopc_builder/bin/europa -I C:/altera_lite/15.1/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/15.1/quartus/sopc_builder/bin -I C:/altera_lite/15.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/15.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/altera_lite/15.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=multicore_jtag_uart --dir=C:/Users/Bcc/AppData/Local/Temp/alt7301_7638780769715922414.dir/0001_jtag_uart_gen/ --quartus_dir=C:/altera_lite/15.1/quartus --verilog --config=C:/Users/Bcc/AppData/Local/Temp/alt7301_7638780769715922414.dir/0001_jtag_uart_gen//multicore_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'multicore_jtag_uart'
+Info: jtag_uart: "multicore" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: mutex: Starting RTL generation for module 'multicore_mutex'
+Info: mutex:   Generation command is [exec C:/altera_lite/15.1/quartus/bin64/perl/bin/perl.exe -I C:/altera_lite/15.1/quartus/bin64/perl/lib -I C:/altera_lite/15.1/quartus/sopc_builder/bin/europa -I C:/altera_lite/15.1/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/15.1/quartus/sopc_builder/bin -I C:/altera_lite/15.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/15.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_mutex -- C:/altera_lite/15.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_mutex/generate_rtl.pl --name=multicore_mutex --dir=C:/Users/Bcc/AppData/Local/Temp/alt7301_7638780769715922414.dir/0002_mutex_gen/ --quartus_dir=C:/altera_lite/15.1/quartus --verilog --config=C:/Users/Bcc/AppData/Local/Temp/alt7301_7638780769715922414.dir/0002_mutex_gen//multicore_mutex_component_configuration.pl  --do_build_sim=0  ]
+Info: mutex: Done RTL generation for module 'multicore_mutex'
+Info: mutex: "multicore" instantiated altera_avalon_mutex "mutex"
+Info: onchip_memory2_0: Starting RTL generation for module 'multicore_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec C:/altera_lite/15.1/quartus/bin64/perl/bin/perl.exe -I C:/altera_lite/15.1/quartus/bin64/perl/lib -I C:/altera_lite/15.1/quartus/sopc_builder/bin/europa -I C:/altera_lite/15.1/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/15.1/quartus/sopc_builder/bin -I C:/altera_lite/15.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/15.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera_lite/15.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=multicore_onchip_memory2_0 --dir=C:/Users/Bcc/AppData/Local/Temp/alt7301_7638780769715922414.dir/0003_onchip_memory2_0_gen/ --quartus_dir=C:/altera_lite/15.1/quartus --verilog --config=C:/Users/Bcc/AppData/Local/Temp/alt7301_7638780769715922414.dir/0003_onchip_memory2_0_gen//multicore_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'multicore_onchip_memory2_0'
+Info: onchip_memory2_0: "multicore" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: performance_counter: Starting RTL generation for module 'multicore_performance_counter'
+Info: performance_counter:   Generation command is [exec C:/altera_lite/15.1/quartus/bin64/perl/bin/perl.exe -I C:/altera_lite/15.1/quartus/bin64/perl/lib -I C:/altera_lite/15.1/quartus/sopc_builder/bin/europa -I C:/altera_lite/15.1/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/15.1/quartus/sopc_builder/bin -I C:/altera_lite/15.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/15.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_performance_counter -- C:/altera_lite/15.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_performance_counter/generate_rtl.pl --name=multicore_performance_counter --dir=C:/Users/Bcc/AppData/Local/Temp/alt7301_7638780769715922414.dir/0004_performance_counter_gen/ --quartus_dir=C:/altera_lite/15.1/quartus --verilog --config=C:/Users/Bcc/AppData/Local/Temp/alt7301_7638780769715922414.dir/0004_performance_counter_gen//multicore_performance_counter_component_configuration.pl  --do_build_sim=0  ]
+Info: performance_counter: Done RTL generation for module 'multicore_performance_counter'
+Info: performance_counter: "multicore" instantiated altera_avalon_performance_counter "performance_counter"
+Info: pll: "multicore" instantiated altera_pll "pll"
+Info: sdram_controller: Starting RTL generation for module 'multicore_sdram_controller'
+Info: sdram_controller:   Generation command is [exec C:/altera_lite/15.1/quartus/bin64/perl/bin/perl.exe -I C:/altera_lite/15.1/quartus/bin64/perl/lib -I C:/altera_lite/15.1/quartus/sopc_builder/bin/europa -I C:/altera_lite/15.1/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/15.1/quartus/sopc_builder/bin -I C:/altera_lite/15.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/15.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/altera_lite/15.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=multicore_sdram_controller --dir=C:/Users/Bcc/AppData/Local/Temp/alt7301_7638780769715922414.dir/0006_sdram_controller_gen/ --quartus_dir=C:/altera_lite/15.1/quartus --verilog --config=C:/Users/Bcc/AppData/Local/Temp/alt7301_7638780769715922414.dir/0006_sdram_controller_gen//multicore_sdram_controller_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram_controller: Done RTL generation for module 'multicore_sdram_controller'
+Info: sdram_controller: "multicore" instantiated altera_avalon_new_sdram_controller "sdram_controller"
+Info: sysid: "multicore" instantiated altera_avalon_sysid_qsys "sysid"
+Info: timer1: Starting RTL generation for module 'multicore_timer1'
+Info: timer1:   Generation command is [exec C:/altera_lite/15.1/quartus/bin64//perl/bin/perl.exe -I C:/altera_lite/15.1/quartus/bin64//perl/lib -I C:/altera_lite/15.1/quartus/sopc_builder/bin/europa -I C:/altera_lite/15.1/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/15.1/quartus/sopc_builder/bin -I C:/altera_lite/15.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/15.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/altera_lite/15.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=multicore_timer1 --dir=C:/Users/Bcc/AppData/Local/Temp/alt7301_7638780769715922414.dir/0008_timer1_gen/ --quartus_dir=C:/altera_lite/15.1/quartus --verilog --config=C:/Users/Bcc/AppData/Local/Temp/alt7301_7638780769715922414.dir/0008_timer1_gen//multicore_timer1_component_configuration.pl  --do_build_sim=0  ]
+Info: timer1: Done RTL generation for module 'multicore_timer1'
+Info: timer1: "multicore" instantiated altera_avalon_timer "timer1"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_010: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_011: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_012: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_013: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_014: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "multicore" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "multicore" instantiated altera_irq_mapper "irq_mapper"
+Info: irq_mapper_001: "multicore" instantiated altera_irq_mapper "irq_mapper_001"
+Info: rst_controller: "multicore" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'multicore_cpu_1_cpu'
+Info: cpu:   Generation command is [exec C:/altera_lite/15.1/quartus/bin64//eperlcmd.exe -I C:/altera_lite/15.1/quartus/bin64//perl/lib -I C:/altera_lite/15.1/quartus/sopc_builder/bin/europa -I C:/altera_lite/15.1/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/15.1/quartus/sopc_builder/bin -I C:/altera_lite/15.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/altera_lite/15.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/altera_lite/15.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/altera_lite/15.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/altera_lite/15.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=multicore_cpu_1_cpu --dir=C:/Users/Bcc/AppData/Local/Temp/alt7301_7638780769715922414.dir/0012_cpu_gen/ --quartus_bindir=C:/altera_lite/15.1/quartus/bin64/ --verilog --config=C:/Users/Bcc/AppData/Local/Temp/alt7301_7638780769715922414.dir/0012_cpu_gen//multicore_cpu_1_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2017.05.15 03:20:31 (*) Starting Nios II generation
+Info: cpu: # 2017.05.15 03:20:31 (*)   Checking for plaintext license.
+Info: cpu: # 2017.05.15 03:20:38 (*)   Couldn't query license setup in Quartus directory C:/altera_lite/15.1/quartus/bin64/
+Info: cpu: # 2017.05.15 03:20:38 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2017.05.15 03:20:38 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2017.05.15 03:20:38 (*)   Plaintext license not found.
+Info: cpu: # 2017.05.15 03:20:38 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu: # 2017.05.15 03:20:44 (*)   Couldn't query license setup in Quartus directory C:/altera_lite/15.1/quartus/bin64/
+Info: cpu: # 2017.05.15 03:20:44 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2017.05.15 03:20:44 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2017.05.15 03:20:44 (*)   Encrypted license not found.  Defaulting to OCP evaluation license (produces a time-limited SOF)
+Info: cpu: # 2017.05.15 03:20:44 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2017.05.15 03:20:44 (*)   Creating all objects for CPU
+Info: cpu: # 2017.05.15 03:20:44 (*)     Testbench
+Info: cpu: # 2017.05.15 03:20:45 (*)     Instruction decoding
+Info: cpu: # 2017.05.15 03:20:45 (*)       Instruction fields
+Info: cpu: # 2017.05.15 03:20:45 (*)       Instruction decodes
+Info: cpu: # 2017.05.15 03:20:46 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2017.05.15 03:20:46 (*)       Instruction controls
+Info: cpu: # 2017.05.15 03:20:46 (*)     Pipeline frontend
+Info: cpu: # 2017.05.15 03:20:46 (*)     Pipeline backend
+Info: cpu: # 2017.05.15 03:20:50 (*)   Generating RTL from CPU objects
+Info: cpu: # 2017.05.15 03:20:53 (*)   Creating encrypted RTL
+Info: cpu: # 2017.05.15 03:20:54 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'multicore_cpu_1_cpu'
+Info: cpu: "cpu_1" instantiated altera_nios2_gen2_unit "cpu"
+Info: cpu: Starting RTL generation for module 'multicore_cpu_2_cpu'
+Info: cpu:   Generation command is [exec C:/altera_lite/15.1/quartus/bin64//eperlcmd.exe -I C:/altera_lite/15.1/quartus/bin64//perl/lib -I C:/altera_lite/15.1/quartus/sopc_builder/bin/europa -I C:/altera_lite/15.1/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/15.1/quartus/sopc_builder/bin -I C:/altera_lite/15.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/altera_lite/15.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/altera_lite/15.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/altera_lite/15.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/altera_lite/15.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=multicore_cpu_2_cpu --dir=C:/Users/Bcc/AppData/Local/Temp/alt7301_7638780769715922414.dir/0013_cpu_gen/ --quartus_bindir=C:/altera_lite/15.1/quartus/bin64/ --verilog --config=C:/Users/Bcc/AppData/Local/Temp/alt7301_7638780769715922414.dir/0013_cpu_gen//multicore_cpu_2_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2017.05.15 03:20:55 (*) Starting Nios II generation
+Info: cpu: # 2017.05.15 03:20:55 (*)   Checking for plaintext license.
+Info: cpu: # 2017.05.15 03:21:02 (*)   Couldn't query license setup in Quartus directory C:/altera_lite/15.1/quartus/bin64/
+Info: cpu: # 2017.05.15 03:21:02 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2017.05.15 03:21:02 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2017.05.15 03:21:02 (*)   Plaintext license not found.
+Info: cpu: # 2017.05.15 03:21:02 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu: # 2017.05.15 03:21:08 (*)   Couldn't query license setup in Quartus directory C:/altera_lite/15.1/quartus/bin64/
+Info: cpu: # 2017.05.15 03:21:08 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2017.05.15 03:21:08 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2017.05.15 03:21:08 (*)   Encrypted license not found.  Defaulting to OCP evaluation license (produces a time-limited SOF)
+Info: cpu: # 2017.05.15 03:21:08 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2017.05.15 03:21:08 (*)   Creating all objects for CPU
+Info: cpu: # 2017.05.15 03:21:08 (*)     Testbench
+Info: cpu: # 2017.05.15 03:21:09 (*)     Instruction decoding
+Info: cpu: # 2017.05.15 03:21:09 (*)       Instruction fields
+Info: cpu: # 2017.05.15 03:21:09 (*)       Instruction decodes
+Info: cpu: # 2017.05.15 03:21:10 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2017.05.15 03:21:10 (*)       Instruction controls
+Info: cpu: # 2017.05.15 03:21:10 (*)     Pipeline frontend
+Info: cpu: # 2017.05.15 03:21:10 (*)     Pipeline backend
+Info: cpu: # 2017.05.15 03:21:13 (*)   Generating RTL from CPU objects
+Info: cpu: # 2017.05.15 03:21:17 (*)   Creating encrypted RTL
+Info: cpu: # 2017.05.15 03:21:18 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'multicore_cpu_2_cpu'
+Info: cpu: "cpu_2" instantiated altera_nios2_gen2_unit "cpu"
+Info: cpu: Starting RTL generation for module 'multicore_cpu_3_cpu'
+Info: cpu:   Generation command is [exec C:/altera_lite/15.1/quartus/bin64//eperlcmd.exe -I C:/altera_lite/15.1/quartus/bin64//perl/lib -I C:/altera_lite/15.1/quartus/sopc_builder/bin/europa -I C:/altera_lite/15.1/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/15.1/quartus/sopc_builder/bin -I C:/altera_lite/15.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/altera_lite/15.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/altera_lite/15.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/altera_lite/15.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/altera_lite/15.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=multicore_cpu_3_cpu --dir=C:/Users/Bcc/AppData/Local/Temp/alt7301_7638780769715922414.dir/0014_cpu_gen/ --quartus_bindir=C:/altera_lite/15.1/quartus/bin64/ --verilog --config=C:/Users/Bcc/AppData/Local/Temp/alt7301_7638780769715922414.dir/0014_cpu_gen//multicore_cpu_3_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2017.05.15 03:21:19 (*) Starting Nios II generation
+Info: cpu: # 2017.05.15 03:21:19 (*)   Checking for plaintext license.
+Info: cpu: # 2017.05.15 03:21:25 (*)   Couldn't query license setup in Quartus directory C:/altera_lite/15.1/quartus/bin64/
+Info: cpu: # 2017.05.15 03:21:25 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2017.05.15 03:21:25 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2017.05.15 03:21:25 (*)   Plaintext license not found.
+Info: cpu: # 2017.05.15 03:21:25 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu: # 2017.05.15 03:21:32 (*)   Couldn't query license setup in Quartus directory C:/altera_lite/15.1/quartus/bin64/
+Info: cpu: # 2017.05.15 03:21:32 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2017.05.15 03:21:32 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2017.05.15 03:21:32 (*)   Encrypted license not found.  Defaulting to OCP evaluation license (produces a time-limited SOF)
+Info: cpu: # 2017.05.15 03:21:32 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2017.05.15 03:21:32 (*)   Creating all objects for CPU
+Info: cpu: # 2017.05.15 03:21:32 (*)     Testbench
+Info: cpu: # 2017.05.15 03:21:32 (*)     Instruction decoding
+Info: cpu: # 2017.05.15 03:21:32 (*)       Instruction fields
+Info: cpu: # 2017.05.15 03:21:32 (*)       Instruction decodes
+Info: cpu: # 2017.05.15 03:21:33 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2017.05.15 03:21:33 (*)       Instruction controls
+Info: cpu: # 2017.05.15 03:21:33 (*)     Pipeline frontend
+Info: cpu: # 2017.05.15 03:21:34 (*)     Pipeline backend
+Info: cpu: # 2017.05.15 03:21:37 (*)   Generating RTL from CPU objects
+Info: cpu: # 2017.05.15 03:21:40 (*)   Creating encrypted RTL
+Info: cpu: # 2017.05.15 03:21:41 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'multicore_cpu_3_cpu'
+Info: cpu: "cpu_3" instantiated altera_nios2_gen2_unit "cpu"
+Info: cpu: Starting RTL generation for module 'multicore_cpu_4_cpu'
+Info: cpu:   Generation command is [exec C:/altera_lite/15.1/quartus/bin64//eperlcmd.exe -I C:/altera_lite/15.1/quartus/bin64//perl/lib -I C:/altera_lite/15.1/quartus/sopc_builder/bin/europa -I C:/altera_lite/15.1/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/15.1/quartus/sopc_builder/bin -I C:/altera_lite/15.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/altera_lite/15.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/altera_lite/15.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/altera_lite/15.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/altera_lite/15.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=multicore_cpu_4_cpu --dir=C:/Users/Bcc/AppData/Local/Temp/alt7301_7638780769715922414.dir/0015_cpu_gen/ --quartus_bindir=C:/altera_lite/15.1/quartus/bin64/ --verilog --config=C:/Users/Bcc/AppData/Local/Temp/alt7301_7638780769715922414.dir/0015_cpu_gen//multicore_cpu_4_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2017.05.15 03:21:42 (*) Starting Nios II generation
+Info: cpu: # 2017.05.15 03:21:42 (*)   Checking for plaintext license.
+Info: cpu: # 2017.05.15 03:21:49 (*)   Couldn't query license setup in Quartus directory C:/altera_lite/15.1/quartus/bin64/
+Info: cpu: # 2017.05.15 03:21:49 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2017.05.15 03:21:49 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2017.05.15 03:21:49 (*)   Plaintext license not found.
+Info: cpu: # 2017.05.15 03:21:49 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu: # 2017.05.15 03:21:56 (*)   Couldn't query license setup in Quartus directory C:/altera_lite/15.1/quartus/bin64/
+Info: cpu: # 2017.05.15 03:21:56 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2017.05.15 03:21:56 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2017.05.15 03:21:56 (*)   Encrypted license not found.  Defaulting to OCP evaluation license (produces a time-limited SOF)
+Info: cpu: # 2017.05.15 03:21:56 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2017.05.15 03:21:56 (*)   Creating all objects for CPU
+Info: cpu: # 2017.05.15 03:21:56 (*)     Testbench
+Info: cpu: # 2017.05.15 03:21:56 (*)     Instruction decoding
+Info: cpu: # 2017.05.15 03:21:56 (*)       Instruction fields
+Info: cpu: # 2017.05.15 03:21:57 (*)       Instruction decodes
+Info: cpu: # 2017.05.15 03:21:57 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2017.05.15 03:21:58 (*)       Instruction controls
+Info: cpu: # 2017.05.15 03:21:58 (*)     Pipeline frontend
+Info: cpu: # 2017.05.15 03:21:58 (*)     Pipeline backend
+Info: cpu: # 2017.05.15 03:22:01 (*)   Generating RTL from CPU objects
+Info: cpu: # 2017.05.15 03:22:05 (*)   Creating encrypted RTL
+Info: cpu: # 2017.05.15 03:22:06 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'multicore_cpu_4_cpu'
+Info: cpu: "cpu_4" instantiated altera_nios2_gen2_unit "cpu"
+Info: cpu_1_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "cpu_1_data_master_translator"
+Info: jtag_uart_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_avalon_jtag_slave_translator"
+Info: cpu_1_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "cpu_1_data_master_agent"
+Info: jtag_uart_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_avalon_jtag_slave_agent"
+Info: jtag_uart_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: router_005: "mm_interconnect_0" instantiated altera_merlin_router "router_005"
+Info: router_006: "mm_interconnect_0" instantiated altera_merlin_router "router_006"
+Info: router_007: "mm_interconnect_0" instantiated altera_merlin_router "router_007"
+Info: router_008: "mm_interconnect_0" instantiated altera_merlin_router "router_008"
+Info: router_010: "mm_interconnect_0" instantiated altera_merlin_router "router_010"
+Info: router_011: "mm_interconnect_0" instantiated altera_merlin_router "router_011"
+Info: router_012: "mm_interconnect_0" instantiated altera_merlin_router "router_012"
+Info: router_013: "mm_interconnect_0" instantiated altera_merlin_router "router_013"
+Info: router_016: "mm_interconnect_0" instantiated altera_merlin_router "router_016"
+Info: router_017: "mm_interconnect_0" instantiated altera_merlin_router "router_017"
+Info: router_018: "mm_interconnect_0" instantiated altera_merlin_router "router_018"
+Info: router_019: "mm_interconnect_0" instantiated altera_merlin_router "router_019"
+Info: router_020: "mm_interconnect_0" instantiated altera_merlin_router "router_020"
+Info: router_021: "mm_interconnect_0" instantiated altera_merlin_router "router_021"
+Info: router_022: "mm_interconnect_0" instantiated altera_merlin_router "router_022"
+Info: cpu_3_instruction_master_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "cpu_3_instruction_master_limiter"
+Info: Reusing file C:/Users/Bcc/Desktop/khldun_project/project00.9AA/multicore/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: sdram_controller_s1_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "sdram_controller_s1_burst_adapter"
+Info: Reusing file C:/Users/Bcc/Desktop/khldun_project/project00.9AA/multicore/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_demux_004: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_004"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file C:/Users/Bcc/Desktop/khldun_project/project00.9AA/multicore/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: cmd_mux_003: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_003"
+Info: Reusing file C:/Users/Bcc/Desktop/khldun_project/project00.9AA/multicore/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: cmd_mux_004: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_004"
+Info: Reusing file C:/Users/Bcc/Desktop/khldun_project/project00.9AA/multicore/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_002"
+Info: rsp_demux_003: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_003"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/Bcc/Desktop/khldun_project/project00.9AA/multicore/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/Users/Bcc/Desktop/khldun_project/project00.9AA/multicore/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_004: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_004"
+Info: Reusing file C:/Users/Bcc/Desktop/khldun_project/project00.9AA/multicore/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: sdram_controller_s1_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "sdram_controller_s1_rsp_width_adapter"
+Info: Reusing file C:/Users/Bcc/Desktop/khldun_project/project00.9AA/multicore/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/Users/Bcc/Desktop/khldun_project/project00.9AA/multicore/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: avalon_st_adapter_004: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_004"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_004" instantiated error_adapter "error_adapter_0"
+Info: multicore: Done "multicore" with 66 modules, 130 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

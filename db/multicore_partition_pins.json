@@ -1,0 +1,161 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sdram_controller_wire_addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_addr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_addr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_addr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_addr[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_addr[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_addr[8]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_addr[9]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_addr[10]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_addr[11]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_addr[12]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_ba[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_ba[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_cas_n",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_cs_n",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_dqm[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_dqm[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_ras_n",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_we_n",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_dq[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_dq[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_dq[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_dq[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_dq[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_dq[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_dq[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_dq[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_dq[8]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_dq[9]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_dq[10]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_dq[11]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_dq[12]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_dq[13]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_dq[14]",
+					"strict" : false
+				},
+				{
+					"name" : "sdram_controller_wire_dq[15]",
+					"strict" : false
+				},
+				{
+					"name" : "reset_reset_n",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
